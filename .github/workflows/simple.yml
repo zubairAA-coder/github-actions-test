@@ -4,7 +4,7 @@ name: Shell Commands
 on: 
   push:
     branches:
-      - master
+      - main
 
 # Allows you to run this workflow manually from the Actions tab add this below  
   # workflow_dispatch:
