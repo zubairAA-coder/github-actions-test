@@ -1,6 +1,10 @@
+
 name: Shell Commands
 
 on: [push]
+
+# Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   run-shell-command:
@@ -12,4 +16,3 @@ jobs:
         run: |
           node -v
           npm -v
-          
